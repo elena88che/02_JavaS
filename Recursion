@@ -3,7 +3,7 @@ const sequenceSum = (begin, end) => {
     if (begin === end) {
     return begin;
   } else if (begin>end) {
-    return end=begin-1;
+    return begin-1;
   } else {
     return NaN;
   }

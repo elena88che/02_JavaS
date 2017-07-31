@@ -3,12 +3,10 @@ const sequenceSum = (begin, end) => {
     if (begin === end) {
     return begin;
   } else if (begin>end) {
-    return begin-1;
-  } else {
     return NaN;
-  }
-
+  } return begin + sequenceSum(begin + 1, end);
   // END
 };
-
 export default sequenceSum;
+ 
+  // END
